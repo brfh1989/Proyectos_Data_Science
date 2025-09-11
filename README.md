@@ -1,45 +1,53 @@
-Introducción
-¡Hola! Soy Bruno Flores, y este repositorio contiene una colección de proyectos de ciencia de datos que he desarrollado durante mi formación en el bootcamp de TripleTen.
+¡Hola! 👋
+Soy Bruno Flores, un Científico de Datos con un doctorado en Ciencias de la Energía y experiencia práctica en la industria química. Me apasiona resolver problemas complejos a través del análisis de datos y la toma de decisiones estratégicas.
 
-Estos proyectos demuestran mi capacidad para aplicar habilidades de Machine Learning y análisis de datos para resolver problemas del mundo real. Mi objetivo es combinar mi sólida formación en ingeniería y mi experiencia en la industria de tratamiento de aguas con las herramientas de ciencia de datos para generar un impacto positivo.
+Sobre mí
+✅ Experiencia en análisis de datos y Machine Learning (Python, SQL, Keras, TensorFlow).
+✅ Sólida base en investigación, metodología y resolución de problemas complejos.
+✅ Experiencia práctica en ingeniería de aplicación y ventas técnicas.
 
-Habilidades Clave
-Aquí están las principales habilidades que he utilizado en estos proyectos:
+Proyectos principales
+En este portafolio, encontrarás proyectos que reflejan mis habilidades y mi pasión por el campo de la ciencia de datos.
 
-Lenguajes: Python, SQL
-Librerías: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
-Modelos: Regresión, Clasificación, Clustering, Redes Neuronales (TensorFlow, PyTorch)
-Visualización: Matplotlib, Seaborn, Plotly, Dash
+Optimización de un casino
 
-Proyectos Destacados
-A continuación, una breve descripción de los proyectos en este portafolio.
+Descripción: Se construyó un modelo de regresión para analizar el rendimiento de un casino con el fin de optimizar las operaciones y la toma de decisiones. El proyecto se centró en la limpieza de datos, la visualización de tendencias y la formulación de conclusiones accionables.
 
-[Nombre del Proyecto 1]
+Análisis de fallas de turbinas eólicas
 
-Problema: [Describe el problema que el proyecto buscaba resolver, por ejemplo, "Predecir el precio de venta de un producto..."]
+Descripción: Desarrollo de un modelo de predicción para identificar y prevenir fallas en turbinas eólicas, utilizando datos históricos para predecir cuándo podrían fallar las turbinas y así optimizar el mantenimiento.
 
-Enfoque: [Describe el enfoque que tomaste, por ejemplo, "Se utilizó un modelo de regresión lineal para..."]
+Análisis del comportamiento del consumidor
 
-Resultados: [Describe los resultados del proyecto, por ejemplo, "El modelo logró una precisión del 95%..."]
+Descripción: Análisis exploratorio de datos para entender los patrones de uso de servicios de telefonía. Se utilizó visualización de datos y el análisis de series de tiempo para formular conclusiones que permitan optimizar la demanda futura.
 
-Habilidades: [Lista de las habilidades que usaste en este proyecto, por ejemplo, Python, Pandas, Scikit-learn, etc.]
+Análisis de series de tiempo para la demanda de taxis
 
-[Nombre del Proyecto 2]
+Descripción: Se diseñó y construyó un modelo de series de tiempo para predecir la demanda de taxis. Se analizaron los patrones históricos de uso para optimizar los horarios y las operaciones.
 
-Problema: [Describe el problema del proyecto 2]
+Clasificación de clientes en un banco
 
-Enfoque: [Describe el enfoque del proyecto 2]
+Descripción: Desarrollo de un modelo de clasificación para predecir la probabilidad de que un cliente abandone un banco. Se utilizaron técnicas de Machine Learning para identificar los factores clave de la deserción de clientes.
 
-Resultados: [Describe los resultados del proyecto 2]
+Optimización de inventarios de una tienda de abarrotes
 
-Habilidades: [Lista de las habilidades que usaste, por ejemplo, SQL, Matplotlib, etc.]
+Descripción: Se construyó un modelo de regresión para analizar el rendimiento de una tienda de abarrotes con el fin de optimizar los inventarios y la toma de decisiones. El proyecto se centró en la limpieza de datos, la visualización de tendencias y la formulación de conclusiones accionables.
+
+Análisis de la rentabilidad de pozos petroleros
+
+Descripción: Se construyó un modelo de clasificación para predecir la rentabilidad de los pozos petroleros con el fin de optimizar las operaciones y la toma de decisiones. El proyecto se centró en la limpieza de datos, la visualización de tendencias y la formulación de conclusiones accionables.
+
+Análisis de la demanda de bicicletas de una empresa de alquiler
+
+Descripción: Se construyó un modelo de regresión para analizar el rendimiento de una empresa de alquiler de bicicletas con el fin de optimizar los horarios y la toma de decisiones. El proyecto se centró en la limpieza de datos, la visualización de tendencias y la formulación de conclusiones accionables.
+
+Análisis de la toxicidad de los comentarios en un servicio de streaming
+
+Descripción: Se construyó un modelo de clasificación para predecir la toxicidad de los comentarios en un servicio de streaming con el fin de optimizar la toma de decisiones. El proyecto se centró en la limpieza de datos, la visualización de tendencias y la formulación de conclusiones accionables.
 
 Contacto
-Puedes contactarme a través de:
+🚀 Estoy abierto a nuevas oportunidades. Si crees que mi perfil se alinea con tu equipo, no dudes en contactarme.
 
-LinkedIn: [Tu enlace a LinkedIn]
+LinkedIn: www.linkedin.com/in/brunorenatoflores
 
-Correo electrónico: [Tu correo electrónico]
-
-Portafolio: [Si tienes un portafolio o una página web, puedes incluir el enlace aquí]
-
+Correo: brfh89@gmail.com
