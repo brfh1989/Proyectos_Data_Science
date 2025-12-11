@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruno Flores | Data Scientist Portfolio</title>
+    <meta name="description" content="Portafolio de Data Science de Bruno Flores. PhD en Ciencias de la Energía y Especialista en Machine Learning.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            900: '#0c4a6e',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        .gradient-text {
+            background: linear-gradient(to right, #0284c7, #2563eb);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+
+    <!-- Navigation -->
+    <nav class="bg-white/80 backdrop-blur-md fixed w-full z-50 border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="text-2xl font-bold text-slate-900 tracking-tight">BF<span class="text-brand-600">.</span></span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#about" class="text-slate-600 hover:text-brand-600 px-3 py-2 text-sm font-medium transition-colors">Sobre mí</a>
+                    <a href="#projects" class="text-slate-600 hover:text-brand-600 px-3 py-2 text-sm font-medium transition-colors">Proyectos</a>
+                    <a href="#skills" class="text-slate-600 hover:text-brand-600 px-3 py-2 text-sm font-medium transition-colors">Habilidades</a>
+                    <a href="#contact" class="text-slate-600 hover:text-brand-600 px-3 py-2 text-sm font-medium transition-colors">Contacto</a>
+                </div>
+                <div class="md:hidden">
+                    <!-- Mobile menu button placeholder -->
+                    <button class="text-slate-600 hover:text-brand-600">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="about" class="pt-32 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <div class="inline-flex items-center px-3 py-1 rounded-full bg-brand-50 text-brand-600 text-sm font-semibold mb-6">
+                    <span class="w-2 h-2 rounded-full bg-brand-500 mr-2 animate-pulse"></span>
+                    Disponible para nuevas oportunidades
+                </div>
+                <h1 class="text-5xl md:text-6xl font-bold text-slate-900 leading-tight mb-6">
+                    Hola, soy <span class="gradient-text">Bruno Flores</span>
+                </h1>
+                <p class="text-xl text-slate-600 mb-8 leading-relaxed">
+                    Científico de Datos con un <strong>Doctorado en Ciencias de la Energía</strong>. 
+                    Combino mi experiencia en investigación y la industria química con técnicas avanzadas de 
+                    Machine Learning para resolver problemas complejos y optimizar la toma de decisiones estratégicas.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#contact" class="bg-brand-600 hover:bg-brand-700 text-white px-8 py-3 rounded-lg font-medium transition-colors shadow-lg shadow-brand-500/30">
+                        Contactar
+                    </a>
+                    <a href="https://github.com/brfh1989/Proyectos_Data_Science" target="_blank" class="bg-white hover:bg-slate-50 text-slate-700 border border-slate-300 px-8 py-3 rounded-lg font-medium transition-colors flex items-center">
+                        <i class="fab fa-github mr-2"></i> Ver Repositorio
+                    </a>
+                </div>
+            </div>
+            <div class="relative hidden lg:block">
+                <!-- Decorative Elements -->
+                <div class="absolute -top-10 -right-10 w-72 h-72 bg-brand-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
+                <div class="absolute -bottom-10 -left-10 w-72 h-72 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
+                
+                <div class="relative bg-white p-8 rounded-2xl shadow-xl border border-slate-100">
+                    <div class="flex items-center space-x-4 mb-6">
+                        <div class="w-12 h-12 bg-brand-100 rounded-full flex items-center justify-center text-brand-600">
+                            <i class="fas fa-graduation-cap text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-slate-900">PhD en Ciencias de la Energía</h3>
+                            <p class="text-sm text-slate-500">Investigación & Metodología</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-4 mb-6">
+                        <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-green-600">
+                            <i class="fas fa-chart-line text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-slate-900">Análisis de Datos</h3>
+                            <p class="text-sm text-slate-500">Python, SQL, Pandas</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-purple-600">
+                            <i class="fas fa-brain text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-slate-900">Machine Learning</h3>
+                            <p class="text-sm text-slate-500">TensorFlow, Keras, Scikit-learn</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Stack Tecnológico</h2>
+                <p class="text-slate-600 max-w-2xl mx-auto">Herramientas y tecnologías que utilizo para transformar datos en conocimiento.</p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+                <!-- Skill Items -->
+                <div class="p-6 bg-slate-50 rounded-xl flex flex-col items-center justify-center hover:bg-slate-100 transition-colors">
+                    <i class="fab fa-python text-4xl text-blue-500 mb-3"></i>
+                    <span class="font-medium text-slate-700">Python</span>
+                </div>
+                <div class="p-6 bg-slate-50 rounded-xl flex flex-col items-center justify-center hover:bg-slate-100 transition-colors">
+                    <i class="fas fa-database text-4xl text-orange-500 mb-3"></i>
+                    <span class="font-medium text-slate-700">SQL</span>
+                </div>
+                <div class="p-6 bg-slate-50 rounded-xl flex flex-col items-center justify-center hover:bg-slate-100 transition-colors">
+                    <i class="fas fa-brain text-4xl text-purple-500 mb-3"></i>
+                    <span class="font-medium text-slate-700">Machine Learning</span>
+                </div>
+                <div class="p-6 bg-slate-50 rounded-xl flex flex-col items-center justify-center hover:bg-slate-100 transition-colors">
+                    <i class="fas fa-project-diagram text-4xl text-green-500 mb-3"></i>
+                    <span class="font-medium text-slate-700">TensorFlow</span>
+                </div>
+                <div class="p-6 bg-slate-50 rounded-xl flex flex-col items-center justify-center hover:bg-slate-100 transition-colors">
+                    <i class="fas fa-table text-4xl text-indigo-500 mb-3"></i>
+                    <span class="font-medium text-slate-700">Pandas</span>
+                </div>
+                 <div class="p-6 bg-slate-50 rounded-xl flex flex-col items-center justify-center hover:bg-slate-100 transition-colors">
+                    <i class="fas fa-chart-pie text-4xl text-red-500 mb-3"></i>
+                    <span class="font-medium text-slate-700">Visualización</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Proyectos Destacados</h2>
+                <p class="text-slate-600 max-w-2xl mx-auto">
+                    Una selección de los principales desafíos resueltos durante el bootcamp de Data Science.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Proyecto 1: Casino -->
+                <div class="bg-white rounded-xl overflow-hidden border border-slate-100 card-hover flex flex-col">
+                    <div class="h-48 bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white">
+                        <i class="fas fa-dice text-5xl opacity-80"></i>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <div class="flex gap-2 mb-3">
+                            <span class="px-2 py-1 bg-indigo-50 text-indigo-700 text-xs font-semibold rounded">Regresión</span>
+                            <span class="px-2 py-1 bg-slate-100 text-slate-600 text-xs font-semibold rounded">Optimización</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Optimización de Casino</h3>
+                        <p class="text-slate-600 text-sm mb-4 flex-1">
+                            Modelo de regresión para analizar el rendimiento de un casino, optimizar operaciones y mejorar la toma de decisiones basada en datos históricos.
+                        </p>
+                        <a href="https://github.com/brfh1989/Proyectos_Data_Science" target="_blank" class="text-brand-600 font-medium hover:text-brand-700 inline-flex items-center mt-auto">
+                            Ver Proyecto <i class="fas fa-arrow-right ml-2 text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Proyecto 2: Turbinas -->
+                <div class="bg-white rounded-xl overflow-hidden border border-slate-100 card-hover flex flex-col">
+                    <div class="h-48 bg-gradient-to-br from-teal-400 to-emerald-600 flex items-center justify-center text-white">
+                        <i class="fas fa-wind text-5xl opacity-80"></i>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <div class="flex gap-2 mb-3">
+                            <span class="px-2 py-1 bg-teal-50 text-teal-700 text-xs font-semibold rounded">Predictivo</span>
+                            <span class="px-2 py-1 bg-slate-100 text-slate-600 text-xs font-semibold rounded">Energía</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Fallas en Turbinas Eólicas</h3>
+                        <p class="text-slate-600 text-sm mb-4 flex-1">
+                            Desarrollo de un modelo para predecir fallas en turbinas eólicas y optimizar los calendarios de mantenimiento preventivo.
+                        </p>
+                        <a href="https://github.com/brfh1989/Proyectos_Data_Science" target="_blank" class="text-brand-600 font-medium hover:text-brand-700 inline-flex items-center mt-auto">
+                            Ver Proyecto <i class="fas fa-arrow-right ml-2 text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Proyecto 3: Banco Churn -->
+                <div class="bg-white rounded-xl overflow-hidden border border-slate-100 card-hover flex flex-col">
+                    <div class="h-48 bg-gradient-to-br from-blue-500 to-cyan-600 flex items-center justify-center text-white">
+                        <i class="fas fa-university text-5xl opacity-80"></i>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <div class="flex gap-2 mb-3">
+                            <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-semibold rounded">Clasificación</span>
+                            <span class="px-2 py-1 bg-slate-100 text-slate-600 text-xs font-semibold rounded">Finanzas</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Retención de Clientes</h3>
+                        <p class="text-slate-600 text-sm mb-4 flex-1">
+                            Modelo de clasificación para predecir la probabilidad de abandono (churn) de clientes bancarios, identificando factores clave.
+                        </p>
+                        <a href="https://github.com/brfh1989/Proyectos_Data_Science" target="_blank" class="text-brand-600 font-medium hover:text-brand-700 inline-flex items-center mt-auto">
+                            Ver Proyecto <i class="fas fa-arrow-right ml-2 text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Proyecto 4: Taxis -->
+                <div class="bg-white rounded-xl overflow-hidden border border-slate-100 card-hover flex flex-col">
+                    <div class="h-48 bg-gradient-to-br from-yellow-400 to-orange-500 flex items-center justify-center text-white">
+                        <i class="fas fa-taxi text-5xl opacity-80"></i>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <div class="flex gap-2 mb-3">
+                            <span class="px-2 py-1 bg-orange-50 text-orange-700 text-xs font-semibold rounded">Series de Tiempo</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Predicción Demanda Taxis</h3>
+                        <p class="text-slate-600 text-sm mb-4 flex-1">
+                            Análisis de series temporales para predecir la demanda de taxis en aeropuertos y optimizar la asignación de conductores en horas pico.
+                        </p>
+                        <a href="https://github.com/brfh1989/Proyectos_Data_Science" target="_blank" class="text-brand-600 font-medium hover:text-brand-700 inline-flex items-center mt-auto">
+                            Ver Proyecto <i class="fas fa-arrow-right ml-2 text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Proyecto 5: Petróleo -->
+                <div class="bg-white rounded-xl overflow-hidden border border-slate-100 card-hover flex flex-col">
+                    <div class="h-48 bg-gradient-to-br from-slate-700 to-slate-900 flex items-center justify-center text-white">
+                        <i class="fas fa-oil-well text-5xl opacity-80"></i>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <div class="flex gap-2 mb-3">
+                            <span class="px-2 py-1 bg-slate-100 text-slate-700 text-xs font-semibold rounded">Bootstrapping</span>
+                            <span class="px-2 py-1 bg-slate-100 text-slate-700 text-xs font-semibold rounded">Riesgo</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Rentabilidad Pozos Petroleros</h3>
+                        <p class="text-slate-600 text-sm mb-4 flex-1">
+                            Selección de las mejores ubicaciones para nuevos pozos petroleros utilizando modelos predictivos y análisis de riesgos-beneficios.
+                        </p>
+                        <a href="https://github.com/brfh1989/Proyectos_Data_Science" target="_blank" class="text-brand-600 font-medium hover:text-brand-700 inline-flex items-center mt-auto">
+                            Ver Proyecto <i class="fas fa-arrow-right ml-2 text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Proyecto 6: Toxicidad -->
+                <div class="bg-white rounded-xl overflow-hidden border border-slate-100 card-hover flex flex-col">
+                    <div class="h-48 bg-gradient-to-br from-red-500 to-pink-600 flex items-center justify-center text-white">
+                        <i class="fas fa-comments text-5xl opacity-80"></i>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <div class="flex gap-2 mb-3">
+                            <span class="px-2 py-1 bg-pink-50 text-pink-700 text-xs font-semibold rounded">NLP</span>
+                            <span class="px-2 py-1 bg-slate-100 text-slate-600 text-xs font-semibold rounded">BERT</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Detección de Toxicidad</h3>
+                        <p class="text-slate-600 text-sm mb-4 flex-1">
+                            Clasificación de comentarios tóxicos en plataformas de streaming utilizando Procesamiento de Lenguaje Natural (NLP) para moderación automática.
+                        </p>
+                        <a href="https://github.com/brfh1989/Proyectos_Data_Science" target="_blank" class="text-brand-600 font-medium hover:text-brand-700 inline-flex items-center mt-auto">
+                            Ver Proyecto <i class="fas fa-arrow-right ml-2 text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="mt-12 text-center">
+                <a href="https://github.com/brfh1989/Proyectos_Data_Science" class="inline-flex items-center justify-center px-6 py-3 border border-slate-300 shadow-sm text-base font-medium rounded-md text-slate-700 bg-white hover:bg-slate-50 transition-colors">
+                    Ver todos los proyectos en GitHub
+                    <i class="fas fa-external-link-alt ml-2 text-sm"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="contact" class="bg-slate-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold mb-8">¿Hablamos?</h2>
+            <p class="text-slate-400 mb-8 max-w-2xl mx-auto">
+                Estoy abierto a discutir cómo mis habilidades en Data Science e investigación pueden aportar valor a tu equipo.
+            </p>
+            
+            <div class="flex justify-center space-x-6 mb-12">
+                <a href="https://www.linkedin.com/in/brunorenatoflores" target="_blank" class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-600 transition-colors">
+                    <i class="fab fa-linkedin-in text-xl"></i>
+                </a>
+                <a href="mailto:brfh89@gmail.com" class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-600 transition-colors">
+                    <i class="fas fa-envelope text-xl"></i>
+                </a>
+                <a href="https://github.com/brfh1989" target="_blank" class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-600 transition-colors">
+                    <i class="fab fa-github text-xl"></i>
+                </a>
+            </div>
+            
+            <div class="border-t border-slate-800 pt-8">
+                <p class="text-slate-500 text-sm">
+                    &copy; 2025 Bruno Flores. Todos los derechos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
